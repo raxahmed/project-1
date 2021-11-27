@@ -1,27 +1,35 @@
-.part1{
+.half-width{
+    width: 38%;
     float: left;
+    padding: 2%;
+    margin: 5%;
 }
-.part2{
-    float: left;
-}
-.pic1{
-    height: 400px;
-    width: 530px;
-}
-.pic2{
-    height: 400px;
-    width: 530px;
+section{
+    height: 550px;
 }
 body{
-    padding: 5px;
-    margin: auto;
-    height: 1490px;
-    width: 1350px;
+    padding: 3%;
+    margin-left: 100px;
 }
-.section-1{
-background-image:url("images/part1-bg.png");
+.half-width img{
+width: 100%;
 }
-.section-2{
-background-image: url("images/part2-bg.png");
 
+.top{
+    background-image: url("images/part1-bg.png");
+  background-repeat: no-repeat;
+}
+.bottom{
+    background-image: url("images/part2-bg.png");
+  background-repeat: no-repeat;
+}
+span{
+    color: orange;
+}
+button{
+   text-decoration: none;
+   font-weight: 700;
+    color: white;
+    border-radius: 3px;
+    background-image: linear-gradient(orange,tomato);
 }
