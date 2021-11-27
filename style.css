@@ -1,0 +1,27 @@
+.part1{
+    float: left;
+}
+.part2{
+    float: left;
+}
+.pic1{
+    height: 400px;
+    width: 530px;
+}
+.pic2{
+    height: 400px;
+    width: 530px;
+}
+body{
+    padding: 5px;
+    margin: auto;
+    height: 1490px;
+    width: 1350px;
+}
+.section-1{
+background-image:url("images/part1-bg.png");
+}
+.section-2{
+background-image: url("images/part2-bg.png");
+
+}
